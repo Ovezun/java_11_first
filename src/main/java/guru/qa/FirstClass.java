@@ -69,7 +69,9 @@ public class FirstClass {
         Lesson javalesson = new Lesson();
         javalesson.doFinishLesson();
 
-
+        //Преполнение
+        System.out.println("Переполнение при сложении " + (2147483647+ a));
+        System.out.println("Переполнение при вычитании " + (-2147483647-a));
     }
 
 }
